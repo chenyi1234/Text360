@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		185962DB1D0E60E300180971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185962DA1D0E60E300180971 /* main.m */; };
 		185962DE1D0E60E300180971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185962DD1D0E60E300180971 /* AppDelegate.m */; };
-		185962E11D0E60E300180971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185962E01D0E60E300180971 /* ViewController.m */; };
-		185962E41D0E60E300180971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185962E21D0E60E300180971 /* Main.storyboard */; };
 		185962E61D0E60E300180971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185962E51D0E60E300180971 /* Assets.xcassets */; };
 		185962E91D0E60E300180971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185962E71D0E60E300180971 /* LaunchScreen.storyboard */; };
 		185962F41D0E60E300180971 /* Text360Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185962F31D0E60E300180971 /* Text360Tests.m */; };
 		185962FF1D0E60E300180971 /* Text360UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185962FE1D0E60E300180971 /* Text360UITests.m */; };
+		1859630F1D0E64FD00180971 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859630D1D0E64FD00180971 /* MainViewController.m */; };
+		185963101D0E64FD00180971 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1859630E1D0E64FD00180971 /* MainViewController.xib */; };
+		1859631C1D0E9ACC00180971 /* PanoramaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859631B1D0E9ACC00180971 /* PanoramaViewController.m */; };
+		185963271D0E9DD000180971 /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185963261D0E9DD000180971 /* PanoramaView.m */; };
+		185963291D0E9FA600180971 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185963281D0E9FA600180971 /* OpenGLES.framework */; };
+		1859632B1D0E9FB200180971 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632A1D0E9FB200180971 /* GLKit.framework */; };
+		1859632D1D0E9FBA00180971 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632C1D0E9FBA00180971 /* CoreMotion.framework */; };
+		1859632F1D0E9FC400180971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632E1D0E9FC400180971 /* Foundation.framework */; };
+		185963331D0EA32800180971 /* 全景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185963321D0EA32800180971 /* 全景图.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +46,6 @@
 		185962DA1D0E60E300180971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185962DC1D0E60E300180971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		185962DD1D0E60E300180971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		185962DF1D0E60E300180971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		185962E01D0E60E300180971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		185962E31D0E60E300180971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185962E51D0E60E300180971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185962E81D0E60E300180971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185962EA1D0E60E300180971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,18 @@
 		185962FA1D0E60E300180971 /* Text360UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text360UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185962FE1D0E60E300180971 /* Text360UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text360UITests.m; sourceTree = "<group>"; };
 		185963001D0E60E300180971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1859630C1D0E64FD00180971 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1859630D1D0E64FD00180971 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1859630E1D0E64FD00180971 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1859631A1D0E9ACC00180971 /* PanoramaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaViewController.h; sourceTree = "<group>"; };
+		1859631B1D0E9ACC00180971 /* PanoramaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaViewController.m; sourceTree = "<group>"; };
+		185963251D0E9DD000180971 /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
+		185963261D0E9DD000180971 /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
+		185963281D0E9FA600180971 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1859632A1D0E9FB200180971 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1859632C1D0E9FBA00180971 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1859632E1D0E9FC400180971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		185963321D0EA32800180971 /* 全景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1859632F1D0E9FC400180971 /* Foundation.framework in Frameworks */,
+				1859632D1D0E9FBA00180971 /* CoreMotion.framework in Frameworks */,
+				1859632B1D0E9FB200180971 /* GLKit.framework in Frameworks */,
+				185963291D0E9FA600180971 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,10 @@
 		185962CD1D0E60E200180971 = {
 			isa = PBXGroup;
 			children = (
+				1859632E1D0E9FC400180971 /* Foundation.framework */,
+				1859632C1D0E9FBA00180971 /* CoreMotion.framework */,
+				1859632A1D0E9FB200180971 /* GLKit.framework */,
+				185963281D0E9FA600180971 /* OpenGLES.framework */,
 				185962D81D0E60E300180971 /* Text360 */,
 				185962F21D0E60E300180971 /* Text360Tests */,
 				185962FD1D0E60E300180971 /* Text360UITests */,
@@ -101,11 +125,17 @@
 		185962D81D0E60E300180971 /* Text360 */ = {
 			isa = PBXGroup;
 			children = (
+				185963321D0EA32800180971 /* 全景图.jpg */,
+				185963251D0E9DD000180971 /* PanoramaView.h */,
+				185963261D0E9DD000180971 /* PanoramaView.m */,
+				185963161D0E8DD400180971 /* Panorama */,
 				185962DC1D0E60E300180971 /* AppDelegate.h */,
 				185962DD1D0E60E300180971 /* AppDelegate.m */,
-				185962DF1D0E60E300180971 /* ViewController.h */,
-				185962E01D0E60E300180971 /* ViewController.m */,
-				185962E21D0E60E300180971 /* Main.storyboard */,
+				1859631A1D0E9ACC00180971 /* PanoramaViewController.h */,
+				1859631B1D0E9ACC00180971 /* PanoramaViewController.m */,
+				1859630C1D0E64FD00180971 /* MainViewController.h */,
+				1859630D1D0E64FD00180971 /* MainViewController.m */,
+				1859630E1D0E64FD00180971 /* MainViewController.xib */,
 				185962E51D0E60E300180971 /* Assets.xcassets */,
 				185962E71D0E60E300180971 /* LaunchScreen.storyboard */,
 				185962EA1D0E60E300180971 /* Info.plist */,
@@ -138,6 +168,13 @@
 				185963001D0E60E300180971 /* Info.plist */,
 			);
 			path = Text360UITests;
+			sourceTree = "<group>";
+		};
+		185963161D0E8DD400180971 /* Panorama */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Panorama;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				185962E91D0E60E300180971 /* LaunchScreen.storyboard in Resources */,
+				185963331D0EA32800180971 /* 全景图.jpg in Resources */,
+				185963101D0E64FD00180971 /* MainViewController.xib in Resources */,
 				185962E61D0E60E300180971 /* Assets.xcassets in Resources */,
-				185962E41D0E60E300180971 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185962E11D0E60E300180971 /* ViewController.m in Sources */,
 				185962DE1D0E60E300180971 /* AppDelegate.m in Sources */,
+				1859630F1D0E64FD00180971 /* MainViewController.m in Sources */,
+				1859631C1D0E9ACC00180971 /* PanoramaViewController.m in Sources */,
+				185963271D0E9DD000180971 /* PanoramaView.m in Sources */,
 				185962DB1D0E60E300180971 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		185962E21D0E60E300180971 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185962E31D0E60E300180971 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		185962E71D0E60E300180971 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -498,6 +530,7 @@
 				185963051D0E60E300180971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185963061D0E60E300180971 /* Build configuration list for PBXNativeTarget "Text360Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				185963081D0E60E300180971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		185963091D0E60E300180971 /* Build configuration list for PBXNativeTarget "Text360UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				1859630B1D0E60E300180971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
