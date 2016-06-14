@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  ViewController.h
 //  Text360
 //
 //  Created by Apple on 16/6/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface ViewController : UIViewController
+
 
 @end
+
