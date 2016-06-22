@@ -21,7 +21,17 @@
 		1859632B1D0E9FB200180971 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632A1D0E9FB200180971 /* GLKit.framework */; };
 		1859632D1D0E9FBA00180971 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632C1D0E9FBA00180971 /* CoreMotion.framework */; };
 		1859632F1D0E9FC400180971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859632E1D0E9FC400180971 /* Foundation.framework */; };
-		185963331D0EA32800180971 /* 全景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 185963321D0EA32800180971 /* 全景图.jpg */; };
+		18CB1A711D1790B900798448 /* 全景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A701D1790B900798448 /* 全景图.jpg */; };
+		18CB1A7D1D179A9500798448 /* 全景图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A721D179A9500798448 /* 全景图.jpg */; };
+		18CB1A7E1D179A9500798448 /* 全景图1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A731D179A9500798448 /* 全景图1.jpg */; };
+		18CB1A7F1D179A9500798448 /* 全景图2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A741D179A9500798448 /* 全景图2.jpg */; };
+		18CB1A801D179A9500798448 /* 全景图3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A751D179A9500798448 /* 全景图3.jpg */; };
+		18CB1A811D179A9500798448 /* 全景图4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A761D179A9500798448 /* 全景图4.jpg */; };
+		18CB1A821D179A9500798448 /* 全景图5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A771D179A9500798448 /* 全景图5.jpg */; };
+		18CB1A831D179A9500798448 /* 全景图6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A781D179A9500798448 /* 全景图6.jpg */; };
+		18CB1A841D179A9500798448 /* 全景图7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A791D179A9500798448 /* 全景图7.jpg */; };
+		18CB1A851D179A9500798448 /* 全景图8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A7A1D179A9500798448 /* 全景图8.jpg */; };
+		18CB1A861D179A9500798448 /* 全景图9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CB1A7B1D179A9500798448 /* 全景图9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +76,18 @@
 		1859632A1D0E9FB200180971 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		1859632C1D0E9FBA00180971 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1859632E1D0E9FC400180971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		185963321D0EA32800180971 /* 全景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图.jpg"; sourceTree = "<group>"; };
+		18CB1A701D1790B900798448 /* 全景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图.jpg"; sourceTree = "<group>"; };
+		18CB1A721D179A9500798448 /* 全景图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图.jpg"; sourceTree = "<group>"; };
+		18CB1A731D179A9500798448 /* 全景图1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图1.jpg"; sourceTree = "<group>"; };
+		18CB1A741D179A9500798448 /* 全景图2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图2.jpg"; sourceTree = "<group>"; };
+		18CB1A751D179A9500798448 /* 全景图3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图3.jpg"; sourceTree = "<group>"; };
+		18CB1A761D179A9500798448 /* 全景图4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图4.jpg"; sourceTree = "<group>"; };
+		18CB1A771D179A9500798448 /* 全景图5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图5.jpg"; sourceTree = "<group>"; };
+		18CB1A781D179A9500798448 /* 全景图6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图6.jpg"; sourceTree = "<group>"; };
+		18CB1A791D179A9500798448 /* 全景图7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图7.jpg"; sourceTree = "<group>"; };
+		18CB1A7A1D179A9500798448 /* 全景图8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图8.jpg"; sourceTree = "<group>"; };
+		18CB1A7B1D179A9500798448 /* 全景图9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全景图9.jpg"; sourceTree = "<group>"; };
+		18CB1A7C1D179A9500798448 /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +146,18 @@
 		185962D81D0E60E300180971 /* Text360 */ = {
 			isa = PBXGroup;
 			children = (
-				185963321D0EA32800180971 /* 全景图.jpg */,
+				18CB1A721D179A9500798448 /* 全景图.jpg */,
+				18CB1A731D179A9500798448 /* 全景图1.jpg */,
+				18CB1A741D179A9500798448 /* 全景图2.jpg */,
+				18CB1A751D179A9500798448 /* 全景图3.jpg */,
+				18CB1A761D179A9500798448 /* 全景图4.jpg */,
+				18CB1A771D179A9500798448 /* 全景图5.jpg */,
+				18CB1A781D179A9500798448 /* 全景图6.jpg */,
+				18CB1A791D179A9500798448 /* 全景图7.jpg */,
+				18CB1A7A1D179A9500798448 /* 全景图8.jpg */,
+				18CB1A7B1D179A9500798448 /* 全景图9.jpg */,
+				18CB1A7C1D179A9500798448 /* PanoramaView.h */,
+				18CB1A701D1790B900798448 /* 全景图.jpg */,
 				185963251D0E9DD000180971 /* PanoramaView.h */,
 				185963261D0E9DD000180971 /* PanoramaView.m */,
 				185963161D0E8DD400180971 /* Panorama */,
@@ -244,6 +276,7 @@
 				TargetAttributes = {
 					185962D51D0E60E200180971 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9MXB6QACDK;
 					};
 					185962EE1D0E60E300180971 = {
 						CreatedOnToolsVersion = 7.3;
@@ -280,10 +313,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CB1A7F1D179A9500798448 /* 全景图2.jpg in Resources */,
 				185962E91D0E60E300180971 /* LaunchScreen.storyboard in Resources */,
-				185963331D0EA32800180971 /* 全景图.jpg in Resources */,
+				18CB1A851D179A9500798448 /* 全景图8.jpg in Resources */,
+				18CB1A7D1D179A9500798448 /* 全景图.jpg in Resources */,
+				18CB1A841D179A9500798448 /* 全景图7.jpg in Resources */,
+				18CB1A831D179A9500798448 /* 全景图6.jpg in Resources */,
 				185963101D0E64FD00180971 /* MainViewController.xib in Resources */,
+				18CB1A861D179A9500798448 /* 全景图9.jpg in Resources */,
+				18CB1A7E1D179A9500798448 /* 全景图1.jpg in Resources */,
+				18CB1A821D179A9500798448 /* 全景图5.jpg in Resources */,
+				18CB1A711D1790B900798448 /* 全景图.jpg in Resources */,
+				18CB1A811D179A9500798448 /* 全景图4.jpg in Resources */,
 				185962E61D0E60E300180971 /* Assets.xcassets in Resources */,
+				18CB1A801D179A9500798448 /* 全景图3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Text360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AUTO.Text360;
@@ -458,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Text360/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AUTO.Text360;
